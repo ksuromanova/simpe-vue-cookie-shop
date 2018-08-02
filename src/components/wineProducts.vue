@@ -10,7 +10,7 @@
             <span class="wine-price"> {{prod.price}}$</span>
         </div>        
         <div class="btn">
-          <input type="button" name="Add" value="Add to cart" @click="addToCart(prod.id_product)">
+          <input type="button" name="Add" value="Add to cart" @click="addToCart(prod)">
         </div>
     </div>
   </div>
@@ -25,7 +25,7 @@ export default {
           products: 'products'
         }),
       ...mapGetters('cart', {
-        inCart: 'products'
+        inCart: 'cartProducts'
       })
       },
       methods: {

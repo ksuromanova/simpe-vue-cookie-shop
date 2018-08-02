@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'wineshop';
-  src: url('../font/wineshop.eot?57185372');
-  src: url('../font/wineshop.eot?57185372#iefix') format('embedded-opentype'),
-       url('../font/wineshop.woff2?57185372') format('woff2'),
-       url('../font/wineshop.woff?57185372') format('woff'),
-       url('../font/wineshop.ttf?57185372') format('truetype'),
-       url('../font/wineshop.svg?57185372#wineshop') format('svg');
+  font-family: 'wineicon';
+  src: url('../font/wineicon.eot?962753');
+  src: url('../font/wineicon.eot?962753#iefix') format('embedded-opentype'),
+       url('../font/wineicon.woff2?962753') format('woff2'),
+       url('../font/wineicon.woff?962753') format('woff'),
+       url('../font/wineicon.ttf?962753') format('truetype'),
+       url('../font/wineicon.svg?962753#wineicon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,14 +14,14 @@
 /*
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
-    font-family: 'wineshop';
-    src: url('../font/wineshop.svg?57185372#wineshop') format('svg');
+    font-family: 'wineicon';
+    src: url('../font/wineicon.svg?962753#wineicon') format('svg');
   }
 }
 */
  
  [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "wineshop";
+  font-family: "wineicon";
   font-style: normal;
   font-weight: normal;
   speak: none;
@@ -56,10 +56,7 @@
 }
  
 .icon-mail:before { content: '\e800'; } /* '' */
-.icon-home:before { content: '\e801'; } /* '' */
-.icon-basket:before { content: '\e802'; } /* '' */
-.icon-trash-empty:before { content: '\e803'; } /* '' */
+.icon-trash-empty:before { content: '\e801'; } /* '' */
 .icon-github-circled:before { content: '\f09b'; } /* '' */
-.icon-filter:before { content: '\f0b0'; } /* '' */
 .icon-whatsapp:before { content: '\f232'; } /* '' */
 .icon-telegram:before { content: '\f2c6'; } /* '' */

@@ -1,9 +1,9 @@
 # shop
 
-> A Vue.js project
+> A Vue.js project online for test https://ksu-vue-shop.firebaseapp.com/
 
 ## Build Setup
-
+Vuex + localStorage
 ``` bash
 # install dependencies
 npm install

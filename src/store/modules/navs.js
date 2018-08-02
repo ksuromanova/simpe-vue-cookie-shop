@@ -4,13 +4,11 @@ export default {
 	state: {
 		menu: [
 			{
-				title: 'Catalog',
-				class: 'icon-home',
+				title: 'Catalog',				
 				url: '/'
 			},
 			{
-				title: 'Cart',
-				class: 'icon-basket',
+				title: 'Cart',				
 				url: '/cart'
 			}
 		],
@@ -23,17 +21,17 @@ export default {
 			{
 				title: 'Email',
 				class: 'icon-mail',
-				url: ''
+				url: 'mailto:romanova.ksu15@gmail.com'
 			},
 			{
 				title: 'Telegram',
 				class: 'icon-telegram',
-				url: '+380684243997'
+				url: 'tg://resolve?domain=ksuromanova'
 			},
 			{
 				title: 'GitHub',
 				class: 'icon-github-circled',
-				url: 'https://github.com/ksuromanova/simple-vue-cookie-shop.git'
+				url: 'https://github.com/ksuromanova/vue-localStorage-shop.git'
 			}
 		]
 	},
